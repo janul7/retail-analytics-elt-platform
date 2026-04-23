@@ -1,0 +1,6 @@
+payment_type,payment_group
+credit_card,card
+debit_card,card
+boleto,cash_like
+voucher,discount
+not_defined,other
