@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# dbt
+target/
+dbt_packages/
+logs/
+*.log
+
+# Airflow
+orchestration/airflow/logs/
+orchestration/airflow/config/airflow.cfg
+
+# raw data downloads
+data/raw/olist/*.zip
